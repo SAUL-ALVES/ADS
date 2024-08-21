@@ -1,0 +1,84 @@
+body{
+    background-color: #dad7cd;
+    color: #dad7cd;
+    font-family: 'TT Rounds Neue Trial', sans-serif;
+}
+.Conteiner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 97vh;
+}
+h1{
+    color: #a485ae;
+    font-size: 2.2rem;
+}
+.Search{
+    display: flex;
+    background-color: #586f7c;
+    color: #09192a;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 15px 25px 15px 25px;
+    margin: 40px 0px 10px 0px;
+    font-size: 0.9rem;
+}
+.Search input{
+    background-color:#586f7c ;
+    color: #d7dfe7;
+    font-size: 1rem;
+    border: none;
+    width: 480px ;
+    outline: 0;
+}
+.Search input::placeholder{
+    color: #d7dfe7;
+}
+label{
+    color: #073b4c;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.Game{
+    display: flex;
+    width: 1000px;
+    height: 120px;
+    background-color: #073b4c;
+    gap: 20px;
+    border: #073b4c solid;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 30px;
+    box-shadow: 4px 5px 8px gray;
+}
+.Game img{
+    max-width: 195px;
+    
+    
+}
+.inline{
+    display: flex;
+    font-size: 0.9rem;
+    gap: 10px;
+}
+.Image-Size{
+    width: 15px;
+}
+
+.title{
+    font-weight: 600;
+}
+.Text{
+    max-width: 700px;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    color: #073b4c;
+    margin-bottom: 15px;
+}
