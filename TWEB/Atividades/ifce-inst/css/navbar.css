@@ -1,31 +1,24 @@
 
 .top-nav {
     display: flex;
-    justify-content: flex-end;
-    gap: 0.5rem;
+    justify-content: space-between; /* Logotipo à esquerda, links à direita */
     align-items: center;
-    height: 100%;
-  }
-  
-  .brand-link {
-   margin-right: auto;
+    padding: 1rem;
+}
 
-  }
-  
-  .brand-link img {
-    height: 48px;
-  }
-  
-  .top-nav a:not(.brand-link) {
+.brand-link img {
+    height: 48px; /* Define a altura do logotipo */
+}
+
+.top-nav a {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     text-decoration: none;
     padding: 0.75rem 1.15rem;
     transition: all 0.3s;
-  }
-  
-  .top-nav a:hover:not(.brand-link) {
+}
+
+.top-nav a:hover {
     background-color: var(--primary-color);
     color: var(--back-light-color);
-  }
-  
+}
