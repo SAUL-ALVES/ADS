@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de Mensagens</title>
+</head>
+<body>
+    <h2>Sistema de Mensagens Inteligentes</h2>
+    <form method="POST">
+        <label for="mensagem">Digite o tipo de mensagem (ok, erro ou outro):</label>
+        <input type="text" id="mensagem" name="mensagem" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    {% if resposta %}
+        <p>{{ resposta }}</p>
+    {% endif %}
+</body>
+</html>
