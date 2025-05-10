@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atividade04-style.css">
+    <title>Estilização de Formulários</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Criar Post</h1>
+            <h2>Escreva sobre o que quiser e compartilhe seu conhecimento!</h2>
+        </header>
+        <section class="crie">
+            <form>
+                <label for="titulo">Título:</label>
+                <input type="text" name="titulo" id="titulo" placeholder="Pense em um bom título...">
+                <hr>
+
+                <label for="url">URL da imagem:</label>
+                <input type="text" name="url" id="url" placeholder="Insira uma imagem que represente o seu post...">
+                <hr>
+
+                <label for="conteudo">Conteúdo:</label>
+                <textarea name="conteudo" id="conteudo" cols="30" rows="5" placeholder="Insira o conteúdo do seu post..."></textarea>
+                <hr>
+
+                <label for="tags">Tags:</label>
+                <input type="text" name="tags" id="tags" placeholder="Insira as tags separadas por vírgula...">
+                <hr>
+
+                <label for="categoria">Categoria:</label>
+                <select name="categoria" id="categoria">
+                    <option value="" disabled selected>Selecione uma categoria...</option>
+                    <option value="pub">Publicação</option>
+                    <option value="story">Vídeo</option>
+                    <option value="reel">Reel</option>
+                </select>
+                <hr>
+                <button type="submit">Criar post</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

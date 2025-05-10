@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --primary-color: #46A151;
+    --back-light-color: #fcfcfc;
+    --text-color: #263138;
+    --line-height: 1.5;
+    --max-width-container: 1200px;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color); /* veja que aqui usamos uma variável definida anteriormente */
+}
+  
+  /* o símbolo de maior que (>) indica que estamos selecionando os filhos diretos de body */
+body > * { 
+    width: 100%;
+}
+header {
+    background-color: var(--back-light-color);
+    position: fixed;
+    top: 0;
+    height: 6rem;
+    padding: 2rem;
+    box-shadow: 0px 3px 15px #ccccccaa;
+}
+  
+main {
+    margin-top: 6rem;
+}
+.container-limiter {
+    /* define uma largura máxima - valor definido anteriormente em uma variável */
+    max-width: var(--max-width-container);
+    width: 100%; /** largura padrão de 100% até o limite definido acima */
+    padding: 0 30px; /** padding nas laterais para o conteúdo não ficar colado na borda */
+}
+  
+  /** centralizando os contâineres horizontalmente usando flexbox */
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+  .btn {
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    display: inline-block;
+    /** tempo de transição para quando o elemento sofrer qualquer alteração em qualquer propriedade 
+    * - isso torna a transição mais suave
+    */
+    transition: all 0.3s;
+    /** ao definir uma borda transparente, estamos "reservando" o espaço para tornar a borda visível depois e não gerar inconsistência nos espaçamentos */
+    border: 1px solid transparent;
+}
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: #fcfcfc;
+    font-size: 1.2rem;
+}
+#bnt-secondary{
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    padding: 15px 30px 15px 30px;
+    background-color: var(--primary-color);
+    color: #fcfcfc;
+    text-decoration: none;
+}
+@media (max-width: 768px){
+    .content-center {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
