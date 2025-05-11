@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, session
 
 app = Flask(__name__)
-app.secret_key = 'sua_chave_secreta_aqui'  # Necessário para usar sessões
+app.secret_key = 'saul' 
 
 # Exercício 1: Verificação de Acesso por Idade
 @app.route('/idade', methods=['GET', 'POST'])
