@@ -1,3 +1,4 @@
+
 from server.router import Router
 
 class Server:

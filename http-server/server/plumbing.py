@@ -1,5 +1,3 @@
-
-
 def html_response(body, status=200):
     return (
         f"HTTP/1.1 {status} OK\r\n"
