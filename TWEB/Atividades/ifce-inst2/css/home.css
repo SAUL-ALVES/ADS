@@ -1,0 +1,137 @@
+.hero-section {
+    background-size: 400% 400%;
+    background-image: linear-gradient(transparent, rgb(123, 233, 182));
+}
+.hero-section .container-limiter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.hero-section img {
+    width: 500px;
+}
+.hero-section .content-text {
+    width: 50%;
+}
+  
+.hero-section .btn {
+    margin-bottom: 0.5rem;
+}
+@keyframes hero-gradient {
+    0% {
+      background-position: 0% 25%;
+    }
+  
+    25% {
+      background-position: 50% 50%;
+    }
+  
+    50% {
+      background-position: 100% 75%;
+    }
+  
+    75% {
+      background-position: 50% 50%;
+    }
+  
+    100% {
+      background-position: 0% 25%;
+    }
+}
+.hero-section {
+    background-size: 400% 400%;
+    background-image: linear-gradient(transparent, rgb(123, 233, 182));
+    animation: 4s linear infinite alternate hero-gradient;
+}
+
+.section_course{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+.section_course h2{
+  column-gap: 200px;
+}
+#bnt-secondary{
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.sub_conteiner{
+  flex: 1 1 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px; 
+}
+#row{
+  display: flex;
+  gap: 100px;
+  flex: 1 1 100px;
+}
+.course{
+  flex: 1 1 100%;
+  max-width: 300px;
+  flex-direction: column;
+  border: 1px solid rgb(222, 221, 221);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text-color);
+}
+a:hover img{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.course p{
+  margin-left: 10px;
+}
+.course h3{
+  margin-left: 10px;
+}
+.course img{
+  max-width: 350px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+@media (max-width:1147px){
+
+  .hero-section .content-text{
+    order: 1;
+    margin-left: 80px;
+    min-width: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .sub_conteiner {
+      gap: 10px;
+  }
+  .course {
+      flex: 1 1 45%;
+      max-width: 300px;
+  }
+  #row{
+    display: flex;
+    gap: 70px;
+  }
+  .content-text{
+    order: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .course {
+      flex: 1 1 100%;
+      max-width: 100%;
+      max-width: 300px;
+  }
+  #row{
+    display: flex;
+    flex-direction: column;
+  }
+}

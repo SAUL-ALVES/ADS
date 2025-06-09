@@ -1,0 +1,129 @@
+.logo {
+  width: auto;
+  height: 25px;
+}
+
+.logo:hover {
+  border: 1px solid rgb(92, 13, 13);
+}
+
+body h1 {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(22, 20, 20);
+  color: antiquewhite;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.nome1,
+.nome2,
+.nome3,
+.nome4 {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  top: 53%;
+  transform: translate(-50%, -50%);
+  color: rgb(107, 106, 106);
+}
+.gen {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 47%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  color: rgb(107, 106, 106);
+  border: 1px solid gray;
+  padding: 10px;
+}
+.adc {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 47%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(107, 106, 106);
+  font-size: 1rem;
+}
+.nome1 {
+  left: 35%;
+}
+.nome2 {
+  left: 43%;
+}
+.nome3 {
+  left: 51%;
+}
+.nome4 {
+  left: 59%;
+}
+.adc {
+  left: 67%;
+}
+
+.centro {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.centro1,
+.centro2,
+.centro3,
+.centro4 {
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.centro1 {
+  left: 34.9%;
+}
+.centro2 {
+  left: 43%;
+}
+.centro3 {
+  left: 51%;
+}
+.centro4 {
+  left: 59%;
+}
+
+.centro1:hover,
+.centro2:hover,
+.centro3:hover,
+.centro4:hover {
+  border: 1px solid white;
+}
+
+.centro5 {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 40%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+.centro5:hover {
+     border: 2px solid rgba(94, 94, 94, 0.144);
+
+}
