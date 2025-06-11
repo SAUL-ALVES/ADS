@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <!-- Campo de texto para digitar o nome do time -->
+        <EditText
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite o nome do time"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp" />
+        <!-- Botão para mostrar o resultado -->
+        <Button
+            android:id="@+id/buttonMostrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrar"
+            android:layout_marginBottom="8dp" />
+        <!-- Botão para limpar os campos -->
+        <Button
+            android:id="@+id/buttonLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpar campos"
+            android:layout_marginBottom="16dp" />
+        <!-- Texto com o resultado -->
+        <TextView
+            android:id="@+id/textViewResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+        <!-- Imagem da taça -->
+        <ImageView
+            android:id="@+id/imageViewTaca"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"/>
+        <!-- Substitua "taca_mundial" pelo nome da sua imagem na pasta drawable -->
+        <Button
+            android:id="@+id/buttonSobre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sobre"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonProfessores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Professores"
+            android:layout_marginBottom="16dp"
+            />
+
+    </LinearLayout>
+</ScrollView>
