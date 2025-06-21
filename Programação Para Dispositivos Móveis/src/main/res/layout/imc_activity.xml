@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:gravity="center_horizontal">
+
+        <!-- Título: Calculadora de IMC -->
+        <TextView
+            android:id="@+id/tv_imc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculadora de IMC"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Campo Peso -->
+        <EditText
+            android:id="@+id/et_peso"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Peso (kg)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Campo Altura -->
+        <EditText
+            android:id="@+id/et_altura"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Altura (m)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botão Calcular IMC -->
+        <Button
+            android:id="@+id/btn_calcular_imc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular IMC"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Resultado do IMC -->
+        <TextView
+            android:id="@+id/tv_resultado_imc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Classificação do IMC -->
+        <TextView
+            android:id="@+id/tv_classificacao_imc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Título: Vídeo Motivacional -->
+        <TextView
+            android:id="@+id/tv_video_motivacional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vídeo Motivacional"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Vídeo Motivacional -->
+        <VideoView
+            android:id="@+id/vv_motivacional"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Título: Exercício Favorito -->
+        <TextView
+            android:id="@+id/tv_exercicio_favorito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercício Favorito"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Campo de Exercício Favorito -->
+        <EditText
+            android:id="@+id/et_exercicio_favorito"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Digite seu exercício favorito"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Botão Mostrar Exercício -->
+        <Button
+            android:id="@+id/btn_mostrar_exercicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrar"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Nome/Descrição do Exercício -->
+        <TextView
+            android:id="@+id/tv_nome_exercicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Imagem do Exercício -->
+        <ImageView
+            android:id="@+id/iv_imagem_exercicio"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botão Limpar -->
+        <Button
+            android:id="@+id/btn_limpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpar"
+            android:layout_marginBottom="16dp" />
+
+        <!-- NOVOS BOTÕES DE NAVEGAÇÃO -->
+
+        <!-- Botão Ir para Sobre -->
+        <Button
+            android:id="@+id/btn_sobre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sobre"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Botão Ir para Dicas de Treino -->
+        <Button
+            android:id="@+id/btn_dicas_treino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dicas de Treino"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

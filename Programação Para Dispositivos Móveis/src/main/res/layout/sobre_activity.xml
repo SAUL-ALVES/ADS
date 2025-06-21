@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Nome -->
+    <TextView
+        android:id="@+id/tv_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saul Alves"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Mini-bio -->
+    <TextView
+        android:id="@+id/tv_mini_bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e desenvolvimento de aplicativos Android."
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center" />
+
+    <!-- Foto -->
+    <ImageView
+        android:id="@+id/iv_foto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/minha_foto"
+        android:scaleType="centerCrop"
+        android:contentDescription="Foto de perfil"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botão Voltar -->
+    <Button
+        android:id="@+id/btn_voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar para a Tela Anterior" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Campo para digitar a dica -->
+    <EditText
+        android:id="@+id/et_dica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:hint="Digite uma dica de treino (ex: Supino ou rosca scott)" />
+
+    <!-- Botão para buscar o vídeo -->
+
+    <!-- Texto para mensagens (ex: dica inválida) -->
+    <Button
+        android:id="@+id/btn_buscar_dica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Buscar Dica" />
+
+    <TextView
+        android:id="@+id/tv_mensagem_dica"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="12dp"
+        android:text=""
+        android:textSize="16sp" />
+
+    <!-- VideoView para exibir o vídeo da dica -->
+    <VideoView
+        android:id="@+id/vv_dica"
+        android:layout_width="match_parent"
+        android:layout_height="467dp" />
+
+</LinearLayout>
