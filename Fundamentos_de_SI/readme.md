@@ -1,0 +1,1 @@
+Diretótio reservado para as práticas da disciplina de Fundamentos de Sistema da Informação
