@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  #status {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
