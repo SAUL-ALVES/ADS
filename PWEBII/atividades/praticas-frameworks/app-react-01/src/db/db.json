@@ -1,0 +1,30 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "title": "Honda Civic 2021",
+      "brand": "Honda",
+      "model": "Civic",
+      "category": "Sedan",
+      "year": 2021,
+      "km": 45000,
+      "price": 120000,
+      "image": "https://cdn.motor1.com/images/mgl/mBrOo/s3/honda-civic-exl-2020.jpg",
+      "description": "Carro impecável, único dono, todas as revisões feitas na concessionária.",
+      "contact": "(11) 99999-9999"
+    },
+    {
+      "id": "a124",
+      "title": "Onix 1.0",
+      "brand": "Chevrolet",
+      "model": "Onix 1.0 LT",
+      "year": "2020",
+      "price": "52900",
+      "km": "45.000",
+      "image": "https://www.webmotors.com.br/imagens/prod/344558/CHEVROLET_ONIX_1.0_MPFI_LT_8V_FLEX_4P_MANUAL_34455813442215113.png",
+      "description": "Carro em excelente estado de conservação, muito econômico e confortável. Ideal para uso urbano e viagens. Revisões feitas em dia, documentação regularizada e pronto para transferência. Possui ar-condicionado, direção elétrica, vidros elétricos e sistema multimídia. Sem detalhes mecânicos, só pegar e rodar.",
+      "contact": "(88) 9 9888-7777"
+    }
+  
+  ]
+}

@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #1c1c1c;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+.navbar h2 { color: #f4f4f4; }
+.navbar ul { list-style: none; display: flex; gap: 1rem; }
+.navbar a { text-decoration: none; color: #fff; font-weight: bold; }
+.navbar .new-btn { background: #b8d6d4; color: #1c1c1c; padding: 0.5rem 1rem; border-radius: 5px; }
